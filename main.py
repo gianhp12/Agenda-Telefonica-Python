@@ -35,6 +35,10 @@ frame_baixo.grid(row=1,column=0,pady=1,padx=0,sticky=NSEW)
 frame_tabela = Frame(janela,width=500,height=248,bg=co2,relief="flat")
 frame_tabela.grid(row=2,column=0,columnspan=2,padx=10,pady=1,sticky=NW)
 
+# label
+
+l_nome = Label(frame_cima,text='Agenda Telefônica',anchor=NE,font=('arial 20 bold'),bg=co3,fg=co1)
+l_nome.place(x=5,y=5)
 
 
 janela.mainloop()
